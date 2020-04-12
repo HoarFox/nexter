@@ -180,7 +180,7 @@ $color-grey-dark-2: #6d5d4b;
   padding: 8rem;
   padding-top: 4rem;
   display: grid;
-  grid-template-rows: 1fr min-content minmax(6rem, min-content) 1fr;
+  grid-template-rows: 1fr min-content minmax(8rem, min-content) 1fr;
   grid-template-columns: minmax(min-content, max-content);
   gap: 1.5rem;
   justify-content: center; }
