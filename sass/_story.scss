@@ -28,7 +28,7 @@ $color-grey-dark-2: #6d5d4b;
         rgba($color-primary, 0.5),
         rgba($color-primary, 0.5)
       ),
-      url(../img/back.jpg);
+      url(../img/back-small.jpg);
     background-size: cover;
 
     display: grid;
@@ -41,6 +41,16 @@ $color-grey-dark-2: #6d5d4b;
       grid-column: 1 / -1;
 
       padding: 6rem;
+    }
+
+    @media only screen and (min-resolution: 192dpi) and (min-width: 37.5em),
+      (-webkit-min-device-pixel-ratio: 2) and (min-width: 37.5em),
+      (min-width: 125em) {
+      background-image: linear-gradient(
+          rgba($color-primary, 0.5),
+          rgba($color-primary, 0.5)
+        ),
+        url(../img/back.jpg);
     }
   }
 
